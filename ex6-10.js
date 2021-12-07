@@ -1,4 +1,9 @@
 function imgchange1(){
     document.getElementByld('logo').src=
-    './image/bulbon.gif';
+    './image/keiei_small.jpg';
+}
+
+function imgchange2(){
+    document.getElementByld('keiei').src=
+    './image/mizuguti.6.jpg';
 }
