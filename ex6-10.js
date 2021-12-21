@@ -1,9 +1,9 @@
 function imagchange1(){
-    document.getElementByld('logo').src=
+    document.getElementById('logo').src=
     './image/keiei_small.jpg';
 }
 
 function imagchange2(){
-    document.getElementByld('keiei').src=
+    document.getElementById('logo').src=
     './image/mizuguti.6.jpg';
 }

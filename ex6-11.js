@@ -9,8 +9,12 @@ if( cnt < 11 ){
 document.timer.moji.value =str.substr(0,cnt+1); }
 else{
 //全て表示されたら、空文字に戻す
-document.timer.moji.value ="";}
+document.timer.moji.value ="";}}
 function startfnc(){
 //関数hyoji()を1000ミリ秒間隔で呼び出す
-setlnterval("hyoji()",1000);
+setInterval("hyoji()",1000);}
+
+function mes(){
+alert("3秒経ちました!");
 }
+
